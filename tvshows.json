@@ -1,0 +1,135 @@
+ [
+  {
+    "name": "Fallout",
+    "rating": "⭐ 8.5/10",
+    "image": "https://i.postimg.cc/RCdwpb9k/fallout-6617871f71419.jpg",
+    "releaseDate": "2024",
+    "genre": "Sci-Fi, Action, Adventure",
+    "actors": ["Ella Purnell", "Walton Goggins", "Aaron Moten"],
+    "directors": ["Jonathan Nolan", "Lisa Joy"],
+    "episodes": 8,
+    "season": 1,
+    "description":
+      "A post-apocalyptic TV adaptation of the Fallout video game series, set in a world destroyed by nuclear war."
+  },
+ 
+ 
+ 
+  {
+    "name": "The Last of Us",
+    "rating": "⭐ 9.1/10",
+    "image": "https://i.postimg.cc/cLp3tpMn/the-last-of-us-63652e6883c0d.jpg",
+    "releaseDate": "2023",
+    "genre": "Drama, Sci-Fi, Action",
+    "actors": ["Pedro Pascal", "Bella Ramsey", "Anna Torv"],
+    "directors": ["Craig Mazin", "Neil Druckmann"],
+    "episodes": 9,
+    "season": 1,
+    "description":
+      "In a post-apocalyptic world, Joel and Ellie navigate dangerous terrain in search of hope and survival."
+  },
+  {
+    "name": "The Traitors",
+    "rating": "⭐ 8.0/10",
+    "image":"https://i.postimg.cc/Zq6d8wVD/the-traitors-63c181e415112.jpg",
+    "releaseDate": "2023",
+    "genre": "Reality, Mystery, Drama",
+    "actors": ["Alan Cumming", "Claudia Winkleman"],
+    "directors": ["Sam Rees-Jones"],
+    "episodes": 12,
+    "season": 2,
+    "description":
+      "A psychological game show where contestants must uncover traitors among them to win a cash prize."
+  },
+  {
+    "name": "House of the Dragon",
+    "rating": "⭐ 8.7/10",
+    "image":"https://i.postimg.cc/ZRZyV6QY/house-of-the-dragon-664f6316ed8d8.jpg",
+    "releaseDate": "2022",
+    "genre": "Action, Fantasy, Drama",
+    "actors": ["Matt Smith", "Emma D'Arcy", "Paddy Considine"],
+    "directors": ["Miguel Sapochnik", "Greg Yaitanes"],
+    "episodes": 10,
+    "season": 2,
+    "description":
+      "A prequel to Game of Thrones, focusing on the Targaryen civil war and the fight for the Iron Throne."
+  },
+  {
+    "name": "All of Us Are Dead",
+    "rating": "⭐ 7.5/10",
+    "image":"https://i.postimg.cc/GtmT1drZ/all-of-us-are-dead-63418a06dea32.jpg",
+    "releaseDate": "2022",
+    "genre": "Horror, Drama, Thriller",
+    "actors": ["Park Ji-hu", "Yoon Chan-young", "Cho Yi-hyun"],
+    "directors": ["Lee Jae-kyoo"],
+    "episodes": 12,
+    "season": 2,
+    "description":
+      "A high school becomes ground zero for a zombie outbreak, forcing students to fight for survival."
+  },
+  {
+    "name": "Wednesday",
+    "rating": "⭐ 8.4/10",
+    "image":"https://i.postimg.cc/Bb7LSknt/wednesday-637e82409618b.jpg",
+    "releaseDate": "2022",
+    "genre": "Fantasy, Comedy, Mystery",
+    "actors": ["Jenna Ortega", "Catherine Zeta-Jones", "Luis Guzmán"],
+    "directors": ["Tim Burton"],
+    "episodes": 8,
+    "season": 2,
+    "description":
+      "Follows Wednesday Addams as she navigates life at Nevermore Academy while investigating a series of supernatural mysteries."
+  },
+  {
+    "name": "Loki",
+    "rating": "⭐ 8.2/10",
+    "image":"https://i.postimg.cc/Bb7LSknt/wednesday-637e82409618b.jpg",
+    "releaseDate": "2021",
+    "genre": "Sci-Fi, Action, Adventure",
+    "actors": ["Tom Hiddleston", "Sophia Di Martino", "Owen Wilson"],
+    "directors": ["Kate Herron", "Justin Benson"],
+    "episodes": 12,
+    "season": 2,
+    "description":
+      "Loki explores different timelines and realities, uncovering the truth behind the multiverse and the TVA."
+  },
+  {
+    "name": "Squid Game",
+    "rating": "⭐ 8.0/10",
+    "image":"https://i.postimg.cc/YCWG7XKq/squid-game-61546f81ab1b0.jpg",
+    "releaseDate": "2021",
+    "genre": "Thriller, Drama, Mystery",
+    "actors": ["Lee Jung-jae", "Park Hae-soo", "Wi Ha-joon"],
+    "directors": ["Hwang Dong-hyuk"],
+    "episodes": 9,
+    "season": 2,
+    "description":
+      "Hundreds of debt-ridden individuals compete in deadly children's games for a massive cash prize."
+  },
+  {
+    "name": "Raised by Wolves",
+    "rating": "⭐ 7.9/10",
+    "image":"https://i.postimg.cc/PqnL5mTb/raised-by-wolves-629512ff7a4d3.jpg",
+    "releaseDate": "2020",
+    "genre": "Sci-Fi, Drama",
+    "actors": ["Travis Fimmel", "Amanda Collin", "Abubakar Salim"],
+    "directors": ["Ridley Scott"],
+    "episodes": 18,
+    "season": 2,
+    "description":
+      "Two androids are tasked with raising human children on a mysterious planet after Earth is destroyed."
+  },
+  {
+    "name": "The White Lotus",
+    "rating": "⭐ 8.4/10",
+    "image":"https://i.postimg.cc/nLKXjChy/the-white-lotus-636132046ff81.jpg",
+    "releaseDate": "2021",
+    "genre": "Drama, Comedy, Mystery",
+    "actors": ["Jennifer Coolidge", "Murray Bartlett", "Connie Britton"],
+    "directors": ["Mike White"],
+    "episodes": 13,
+    "season": 2,
+    "description":
+      "A satirical look at the lives of privileged guests at a luxury resort, where dark secrets unfold."
+  }
+]
