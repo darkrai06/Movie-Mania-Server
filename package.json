@@ -1,5 +1,5 @@
 {
-  "name": "b10-a10-server-side-mumtahinaa",
+  "name": "movie-mania-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,6 +14,6 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "mongodb": "^6.14.2"
+    "mongodb": "4.1"
   }
 }
