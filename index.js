@@ -27,8 +27,6 @@ const client = new MongoClient(uri, {
 app.use(cors());
 app.use(express.json());
 
-const allMovie = 
-
 async function run() {
   try {
     await client.connect();
