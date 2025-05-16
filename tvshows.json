@@ -14,6 +14,20 @@
   },
  
   {
+    "name": "Loki",
+    "rating": "⭐ 9.2/10",
+    "image":"https://resizing.flixster.com/o1o8vBlAWaGVUudnCaTcwrrSwIQ=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZTdhMTEzOTUtMTc1Yi00NzljLTk0YTgtNWFiYzJhMmQwMzE4LmpwZw==",
+    "releaseDate": "2021",
+    "genre": "Sci-Fi, Action, Adventure",
+    "actors": ["Tom Hiddleston", "Sophia Di Martino", "Owen Wilson"],
+    "directors": ["Kate Herron", "Justin Benson"],
+    "episodes": 12,
+    "season": 2,
+    "description":
+      "Loki explores different timelines and realities, uncovering the truth behind the multiverse and the TVA."
+  },
+  
+  {
     "name": "The Last of Us",
     "rating": "⭐ 9.1/10",
     "image": "https://i.postimg.cc/cLp3tpMn/the-last-of-us-63652e6883c0d.jpg",
@@ -78,19 +92,7 @@
     "description":
       "Follows Wednesday Addams as she navigates life at Nevermore Academy while investigating a series of supernatural mysteries."
   },
-  {
-    "name": "Loki",
-    "rating": "⭐ 9.2/10",
-    "image":"https://resizing.flixster.com/o1o8vBlAWaGVUudnCaTcwrrSwIQ=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZTdhMTEzOTUtMTc1Yi00NzljLTk0YTgtNWFiYzJhMmQwMzE4LmpwZw==",
-    "releaseDate": "2021",
-    "genre": "Sci-Fi, Action, Adventure",
-    "actors": ["Tom Hiddleston", "Sophia Di Martino", "Owen Wilson"],
-    "directors": ["Kate Herron", "Justin Benson"],
-    "episodes": 12,
-    "season": 2,
-    "description":
-      "Loki explores different timelines and realities, uncovering the truth behind the multiverse and the TVA."
-  },
+
   {
     "name": "Squid Game",
     "rating": "⭐ 8.0/10",

@@ -23,7 +23,6 @@ const client = new MongoClient(uri, {
   }
 });
 
-//middleware
 app.use(cors());
 app.use(express.json());
 
