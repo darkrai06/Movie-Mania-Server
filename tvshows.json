@@ -13,7 +13,19 @@
       "A post-apocalyptic TV adaptation of the Fallout video game series, set in a world destroyed by nuclear war."
   },
  
- 
+  {
+    "name": "Loki",
+    "rating": "⭐ 10/10",
+    "image": "https://i.postimg.cc/RCdwpb9k/fallout-6617871f71419.jpg",
+    "releaseDate": "2021",
+    "genre": "Sci-Fi, Action, Adventure, Superpower",
+    "actors": ["Tom Hiddleston", "Owen Wilson", "Sophia Di Martino"],
+    "directors": ["Michael Waldron"],
+    "episodes": 12,
+    "season": 2,
+    "description":
+      "The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of “Avengers: Endgame.”"
+  },
  
   {
     "name": "The Last of Us",

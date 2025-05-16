@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
 const tvShows = require('./tvshows.json');
+const allmovie = require('./allmovies.json');
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 
 const port = process.env.PORT || 4000;
@@ -26,63 +27,7 @@ const client = new MongoClient(uri, {
 app.use(cors());
 app.use(express.json());
 
-const allMovie = [
-  {
-    id: 1,
-    image: "https://i.postimg.cc/Y2g5j6JV/gladiator-ii.jpg",
-    title: "GLADIATOR",
-    highlight: "2",
-    year: "2024",
-    rating: "⭐ 8.2/10",
-    genre: "Action, Drama, History",
-    description:
-      "The long-awaited sequel to Gladiator follows the story of Lucius as he steps into the arena once more.",
-  },
-  {
-    id: 2,
-    image: "https://i.postimg.cc/sfbD7xjH/paradise.jpg",
-    title: "PARADISE",
-    highlight: "2025",
-    year: "2025",
-    rating: "⭐ 7.9/10",
-    genre: "Sci-Fi, Thriller",
-    description:
-      "In a dystopian future, a scientist discovers a hidden utopia—but at what cost?",
-  },
-  {
-    id: 3,
-    image: "https://i.postimg.cc/d3gMChG2/orion.jpg",
-    title: "ORION AND THE",
-    highlight: "DARK",
-    year: "2024",
-    rating: "⭐ 7.5/10",
-    genre: "Animation, Fantasy",
-    description:
-      "A young boy named Orion faces his fears in a thrilling animated journey through the unknown.",
-  },
-  { 
-    id: 4,
-    image: "https://i.postimg.cc/Z5y5V7nc/dune-part-two-6648aab15a856.jpg",
-    title: "DUNE: PART TWO",
-    highlight: "2024",
-    year: "2024",
-    rating: "⭐ 9.0/10",
-    genre: "Sci-Fi, Adventure, Drama",
-    description:
-      "Paul Atreides unites with the Fremen to seek revenge against those who destroyed his family, while navigating a dangerous prophecy that could change the universe forever.",
-  },
-  {
-    id: 5,
-    image: "https://i.postimg.cc/KzmccmNq/the-gorge-67594b9b42095.jpg",
-    title: "THE GORGE",
-    highlight: "2024",
-    year: "2024",
-    rating: "⭐ 7.8/10",
-    genre: "Action, Romance, Thriller",
-    description:
-      "Two operatives in a high-stakes world of espionage share an intense romance, navigating danger and deception in a thrilling rollercoaster of love and betrayal.",
-  },
-];
+const allMovie = 
 
 async function run() {
   try {
@@ -185,8 +130,7 @@ if(searchParams){
        const count = await bannerDb.countDocuments();
        if (count === 0) {
          const options = { ordered: true };
-         await bannerDb.insertMany(allMovie, options);
-        
+         await bannerDb.insertMany(allMovie, options);       
        }
    
        app.get("/banner", async (req, res) => {
