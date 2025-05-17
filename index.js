@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
 const tvShows = require('./tvshows.json');
-const allmovie = require('./allmovies.json');
+const allMovie = require('./allmovies.json');
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 
 const port = process.env.PORT || 4000;
